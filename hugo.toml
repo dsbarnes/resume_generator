@@ -1,0 +1,15 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'Derek Barnes Resume'
+
+[params]
+    name = 'Derek Barnes'
+
+[params.accomplishments]
+    [params.accomplishments.assistant]
+    [params.accomplishments.marketing]
+    [params.accomplishments.web]
+
+        
+        
+    

@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+h2 { margin-bottom: 8px; }
+
+#header {
+    h1 { font-size: 4rem; }
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+
+#summary {
+    margin-bottom: 8px;
+}
+
+#skills {
+    & > div {
+        display: flex;
+        margin-left: 16px;
+        margin-bottom: 16px;
+        & > ul {
+            width: 50%;
+        }
+    }
+}
+
+#contrib {}
+
+#projects {
+    & h1 { margin-bottom: 8px; }
+}
+
+#work_exp {
+    & > div {
+        margin-bottom: 16px;
+    }
+    & > div > div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+    & ul {
+        padding-left: 16px;
+    }
+}
+
+#education {
+    & > div {
+        display: flex;
+        justify-content: space-between;
+   } 
+}

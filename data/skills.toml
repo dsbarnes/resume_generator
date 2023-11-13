@@ -1,0 +1,31 @@
+use_skills = true
+
+lhs_skills = [
+    '**Content Modeling**',
+    '**Market Research**',
+    '**Reporting and Documentation**',
+
+    # '**SQL**',
+    # 'Familiarity with **headless CMS platforms** (WP, Contentful, Strapi, Sanity, etc.)',
+    # '**Excel** (Sorting, Filtering, Conditional Formatting, Pivot Tables, Charting, Macros)',
+    # '**Excel (and Sheets)**',
+    # '**PowerPoint**',
+    # '**Tableau**',
+    # '**PowerBI**',
+    # '**Project Management**',
+]
+
+rhs_skills = [
+    '**Project Management**',
+    '**Technical Problem-Solving**',
+    '**Requirements Analysis**',
+
+    # '**Attention to Detail**',
+    # '**Reporting and Documentation**',
+    # '**Content Modeling** (medadata, tags, taxonomies)',
+    # '**Data Visualization and Communication**',
+    # '**Data Analytics** (SQL, Python, Tableau)',
+    # '**SQL**',
+    # '**Python** (Pandas, NumPy, Matplotlib, Seaborn, BeautifulSoup)',
+    # '**NeoVim**',
+]

@@ -1,0 +1,35 @@
+use_projects = false
+
+[project_one]
+    name = 'UFC Stats - ufcm, ufcsv'
+    date = 2023
+    skills = [
+        'python (bs4, selenium, pandas)',
+        'sql (sqlite3)',
+    ]
+    data = [
+        'A scrape of ufcstats.com into HTML and CSV files.',
+        '**technologies:** Python (bs4, pandas) SQL (SQLite)',
+        'homepage: https://github.com/dsbarnes/MMA_machine'
+    ]
+
+# [project_two]
+#     name = 'Leearn Statistics By Solving Poker'
+#     date = 2023
+#     skills = [
+#         'python',
+#         'sql',
+#     ]
+#     data = [
+#         'We build poker games, learn statistics, and graph things to demonstrate how we can think about outcome based games. Poker is hard to solve, but we can get pretty close, certianly better than humans',
+#     ]
+
+# [project_three]
+#     name = 'Dashboard of some kind'
+#     date = 2023
+#     skills = [
+#         'Tableau'
+#     ]
+#     data = [
+#         'What I did for the project'
+#     ]

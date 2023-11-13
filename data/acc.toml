@@ -1,0 +1,92 @@
+use_lebook = true 
+use_helpertech = true
+use_thg = false
+use_vera = true
+use_kenzie = false
+
+
+[lebook]
+    accomplishments = [
+        'Collaborate with stakeholders to gather and document business requirements related to event production, content management and delivery.',
+        'Create and maintain documentation of all IT configurations, formats, and procedures.',
+        'Develop and execute test plans to ensure that content delivery functions as expected across different platforms, devices, and channels.',
+        "Develop a comprehensive understanding of the LeBooks's content architecture and design effective content models and data structures within the CMS (strapi).",
+        'Track deadlines and deliverablesto ensure project completion and identify continuous points of maintenance.',
+        'Deliver comprehensive performance metrics, and insights to senior management and stakeholders.',
+
+        # 'Procure live event resources, manage equipment ordering, and service activations.',
+        # 'Ensure that project milestones are communicated with all parties involved and met.',
+        # 'Provide guidance on campaign effectiveness and areas for improvement.',
+        # 'Collecting all information required from the customer to enable a successful implementation.',
+        # 'Coach the CEO on data collection, analysis, processing, and cleansing.',
+        # 'Responsible for ongoing execution of service additions and changes based on customer requests.',
+        # 'Create detailed documentation of business and technical requirements, content models, taxonomies, and workflows.',
+        # 'Write and schedule daily social posts - generate 50 pieces of weekly content.',
+        # 'Help design, document, and maintain system processes.',
+        # 'Draft project plans for technology and marketing initiatives using SMART goal contracts.',
+        # 'Report on common sources of technical issues.',
+        # 'Write budgets for the technology, marketing, and production team.',
+        # 'Define KPIs and reporting requirements.',
+        # 'Organize and design templates and graphics for exhibitions (Adobe InDesign, Photoshop, Illustrator).',
+        # 'Collect and organize digital assets.',
+        # 'Consult LeBook owners about, updates design and branding',
+        # '**Manage** CEO and personal **email and calendars** consisting of **60+ meetings** per month.',
+        # 'Manage relationships with exhibitors, jurors, vendors, and artists',
+        # 'Design workflows', 'Write automation scripts',
+        # 'Contact qualified leads to book at least 4 remote sales meetings per month.',
+        # 'Coach department leads on data collection, analysis, processing, and process revision',
+        # 'Consult CEOs and Conglomerate leaders concerning company direction and reinvention',
+        # 'Deploy automation scripts for marketing, sales, and production initiatives',
+        # 'Create Email templates',
+    ]
+
+[helpertech]
+    accomplishments = [
+        'Doubled search terms ranking 1st from an average of 100 to 200.',
+        'Generate concise and visual technical reports for owners.',
+        'Present technical findings to and for top-level management.',
+        'Introduced team to Figma, nearly doubling development speed, more than halving QA time, resulting in an additional $1,800 per week for the advertising budget.',
+        'Design workflows and write automation scripts.',
+
+        # 'Created and managed content for 4 major clients - posting 7 pieces of concern per client per day.',
+        # 'Managed CEO calendar for marketing meetings, travel, and off time.',
+    ]
+
+[thg]
+    accomplishments = [
+        'Manage hosting for 20+ clients, performing general maintenance and content updates.',
+        'Increased traffic to the HelperTech locations by over 10 visitors and calls per week.',
+        'Created social content that increased foot traffic to the store from an average of 7 to 17 visitors per week.',
+        'Utilized social outreach to generate an average of 11 addational inbound phone calls per week.',
+        'Doubled keywords ranking 1st in SERPs from an average of 100 to 200 by auditing SEO metrics, web vitals, and accessibility.',
+    ]
+
+[vera]
+    accomplishments = [
+        'Analyze and interpret large volumes of e-commerce data, including sales, customer behavior, website traffic, and marketing performance metrics.',
+        'Dive deep into extensive e-commerce datasets, encompassing sales figures, customer behavior, website traffic, and various marketing performance metrics.',
+        'Collaborate with cross-functional teams to design and execute A/B tests, experiments, and campaigns to optimize conversion rates, customer acquisition, and retention strategies.',
+        'Identify opportunities for process improvements and automation within the marketing analytics function.',
+        'Designed and implemented an ML-based search experience, which generated $8 Million in revenues.',
+        'Create and organize site documentation and style guides with Jira and Confluence.',
+
+        # 'Work with the UI/UX team to QA test VB, Outlet, and VB Foundation domains.',
+        #'Implemented lazy loading, increasing site performance by over 150% and remarketing success by 12%, resulting in approximately $600,000 of additional revenue.',
+        # 'Assisted with planning the replatform of the primary VB website and VB online outlet.',
+        # 'Contribute to the design and development of the VB international website.',
+    ]
+
+[kenzie]
+    accomplishments = [
+        'Maintain our core domains of profiles.kenzie, kenzie.academy, and respective APIs.',
+        'Host live demos to cover concepts and take questions about basic types and syntax, control flow, the prototype chain, inheritance, closures, HOCs, the fetch API and HTTP modules, and comparisons between NodeJS and JavaScript in the browser.',
+        'Lead and mentor cohorts of 60-80 students through topics such as shells and system commands, agile methodologies, SDLC, HTML, CSS, JS, React, Node, Express, MongoDB, Python, and Django.',
+        'Write rubrics, READMEs, and tests for student assignments and submissions.',
+        'Facilitate an understanding of important web protocols and concepts such as TCP/IP, HTTP, SSH, and SFTP.',
+        'Translate designs, wireframes, and flowcharts into React components according to studio, marketing, and product owner specifications.',
+        'Manage storage and accessibility of marketing assets with HubSpot.',
+        'Scrape employee partner job listings and compare student profile data to interface graduates, student success, and employee partners and increase student placements.',
+        'Utilize git, Github, GitLab, and Heroku to deploy 20+ web apps while facilitating general version control, web hosting, and dev ops concepts.',
+    ]
+
+

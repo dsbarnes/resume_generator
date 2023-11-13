@@ -1,0 +1,29 @@
+[lebook]
+    business_name = 'LeBook'
+    title = 'Business Operations Manager'
+    start_date = 'May 2022'
+    end_date = 'March 2023'
+
+[helpertech]
+    business_name = 'Helpertech'
+    title = 'Content Manager + SEO'
+    start_date = 'May 2021'
+    end_date = 'September 2021'
+
+[thg]
+    business_name = 'The Hayes Group'
+    title = 'Web Portfolio Manager'
+    start_date = 'Jan 2021'
+    end_date = 'April 2021'
+
+[vera]
+    business_name = 'Vera Bradley'
+    title = 'Shopify Developer'
+    start_date = 'July 2020'
+    end_date = 'December 2020'
+
+[kenzie]
+    business_name = 'Kenzie Academy'
+    title = 'Front End Web Developer'
+    start_date = 'July 2019'
+    end_date = 'July 2020'

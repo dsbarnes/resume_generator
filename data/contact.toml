@@ -1,0 +1,9 @@
+name = 'Derek Barnes'
+phone = '(765) 667 6244'
+email = 'derekb0147@gmail.com'
+linkedin_url = 'https://www.linkedin.com/in/barnesds'
+    
+[website]
+    name = "Derek's Desk"
+    # url = 'https://www.dereksdesk.com'
+    email = 'derek@dereksdesk.com'

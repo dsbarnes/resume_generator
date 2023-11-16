@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <div>
+            <p><b>{{ .Site.Data.exp.thg.business_name }}</b></p>
+            <p> {{ .Site.Data.exp.thg.title }} </p>
+        </div>
+        <p> {{ .Site.Data.exp.thg.start_date }} - {{ .Site.Data.exp.thg.end_date }} </p>
+    </div>
+
+    {{ range .Site.Data.acc.thg.accomplishments }}
+    <ul>
+        <li> {{ . | markdownify }} </li>
+    </ul>
+    {{ end }}
+</div>

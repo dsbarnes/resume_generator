@@ -1,0 +1,12 @@
+<section id="projects">
+    <h1>Projects</h1>
+
+    <p><b>{{ .Site.Data.projects.project_one.name }}</b></p>
+    {{ range .Site.Data.projects.project_one.data }}
+    <ul>
+        <li> {{ . | markdownify }} </li>
+    </ul>
+    {{ end }}
+    <br>
+
+</section>

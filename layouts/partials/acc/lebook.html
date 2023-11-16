@@ -1,0 +1,16 @@
+<div>
+    <div>
+        <div>
+            <p><b>{{ .Site.Data.exp.lebook.business_name }}</b></p>
+            <p> {{ .Site.Data.exp.lebook.title }} </p>
+        </div>
+        <p> {{ .Site.Data.exp.lebook.start_date }} - {{ .Site.Data.exp.lebook.end_date }} </p>
+    </div>
+
+    {{ range .Site.Data.acc.lebook.accomplishments }}
+    <ul>
+        <li> {{ . | markdownify }} </li>
+    </ul>
+    {{ end }}
+</div>
+

@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <div>
+            <p><b>{{ .Site.Data.exp.vera.business_name }}</b></p>
+            <p> {{ .Site.Data.exp.vera.title }} </p>
+        </div>
+        <p> {{ .Site.Data.exp.vera.start_date }} - {{ .Site.Data.exp.vera.end_date }} </p>
+    </div>
+
+    {{ range .Site.Data.acc.vera.accomplishments }}
+    <ul>
+        <li> {{ . | markdownify }} </li>
+    </ul>
+    {{ end }}
+</div>

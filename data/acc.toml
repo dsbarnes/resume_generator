@@ -4,17 +4,22 @@ use_thg = false
 use_vera = true
 use_kenzie = false
 
+use_dollar_general = false
+use_caseys = false
+use_pizza_hut = false
+
 
 [lebook]
     accomplishments = [
+        'Procure live trade show and event resources, manage equipment ordering, and service activations.',
+        'Design graphics, infographics and perform photo editing for web, email and print materials.',
         'Collaborate with stakeholders to gather and document business requirements related to event production, content management and delivery.',
-        'Create and maintain documentation of all IT configurations, formats, and procedures.',
         'Develop and execute test plans to ensure that content delivery functions as expected across different platforms, devices, and channels.',
         "Develop a comprehensive understanding of the LeBooks's content architecture and design effective content models and data structures within the CMS (strapi).",
         'Track deadlines and deliverablesto ensure project completion and identify continuous points of maintenance.',
         'Deliver comprehensive performance metrics, and insights to senior management and stakeholders.',
 
-        # 'Procure live event resources, manage equipment ordering, and service activations.',
+        # 'Create and maintain documentation of all IT configurations, formats, and procedures.',
         # 'Ensure that project milestones are communicated with all parties involved and met.',
         # 'Provide guidance on campaign effectiveness and areas for improvement.',
         # 'Collecting all information required from the customer to enable a successful implementation.',
@@ -89,4 +94,100 @@ use_kenzie = false
         'Utilize git, Github, GitLab, and Heroku to deploy 20+ web apps while facilitating general version control, web hosting, and dev ops concepts.',
     ]
 
+
+################################################################################ ################################################################################
+# Cook Resume:
+################################################################################ ################################################################################
+
+[caseys]
+    accomoplishments = [
+        'Greet guests, escort them to their seats, and present them with menus and wine lists.',
+        'Perform food preparation and service tasks, such as cooking, clearing tables, and serving food and drinks when necessary.',
+        'Read food order slips or receive verbal instructions as to food required by patron, and prepare and cook food according to instructions.',
+        'Operate large-volume cooking equipment, such as grills, deep-fat fryers, or griddles.',
+        'Pre-cook items, such as bacon, to prepare them for later use.',
+        'Monitor food preparation methods, portion sizes, and garnishing and presentation of food to ensure that food is prepared and presented in an acceptable manner.',
+        'Wash, cut, and prepare foods designated for cooking.',
+        'Cook the exact number of items ordered by each customer, working on several different orders simultaneously.',
+        'Maintain food and equipment inventories, and keep inventory records.',
+        'take deliveries and verify product quality and quantity.',
+        'Test cooked food by tasting and smelling it to ensure palatability and flavor conformity.',
+        'Take dining reservations.',
+        'Maintain sanitation, health, and safety standards in work areas.',
+    ]
+
+[pizza_hut]
+    accomoplishments = [
+        'Greet guests, escort them to their seats, and present them with menus and wine lists.',
+        'Perform food preparation and service tasks, such as cooking, clearing tables, and serving food and drinks when necessary.',
+        'Read food order slips or receive verbal instructions as to food required by patron, and prepare and cook food according to instructions.',
+        'Operate large-volume cooking equipment, such as grills, deep-fat fryers, or griddles.',
+        'Pre-cook items, such as bacon, to prepare them for later use.',
+        'Monitor food preparation methods, portion sizes, and garnishing and presentation of food to ensure that food is prepared and presented in an acceptable manner.',
+        'Wash, cut, and prepare foods designated for cooking.',
+        'Cook the exact number of items ordered by each customer, working on several different orders simultaneously.',
+        'Maintain food and equipment inventories, and keep inventory records.',
+        'take deliveries and verify product quality and quantity.',
+        'Test cooked food by tasting and smelling it to ensure palatability and flavor conformity.',
+        'Take dining reservations.',
+        'Maintain sanitation, health, and safety standards in work areas.',
+    ]
+
+
+################################################################################ ################################################################################
+# Store associate resume:
+################################################################################ ################################################################################
+
+[dollar_general]
+    accomoplishments = [
+        'Greet guests, escort them to their seats, and present them with menus and wine lists.',
+        'Perform food preparation and service tasks, such as cooking, clearing tables, and serving food and drinks when necessary.',
+        'Read food order slips or receive verbal instructions as to food required by patron, and prepare and cook food according to instructions.',
+        'Operate large-volume cooking equipment, such as grills, deep-fat fryers, or griddles.',
+        'Pre-cook items, such as bacon, to prepare them for later use.',
+        'Monitor food preparation methods, portion sizes, and garnishing and presentation of food to ensure that food is prepared and presented in an acceptable manner.',
+        'Wash, cut, and prepare foods designated for cooking.',
+        'Cook the exact number of items ordered by each customer, working on several different orders simultaneously.',
+        'Maintain food and equipment inventories, and keep inventory records.',
+        'take deliveries and verify product quality and quantity.',
+        'Test cooked food by tasting and smelling it to ensure palatability and flavor conformity.',
+        'Take dining reservations.',
+        'Maintain sanitation, health, and safety standards in work areas.',
+    ]
+
+[eventmarketing]
+    accomplishments = [
+        'Prepare and deliver sales script to potential customers.',
+        'Provide clients with estimates of the costs of advertising products or services.',
+        'Prepare promotional plans, sales literature, media kits, and sales contracts, using computer.',
+        'Deliver advertising or illustration proofs to customers for approval.',
+        'Inform customers of available options for advertisement artwork, and provide samples.',
+        'Recommend appropriate sizes and formats for advertising, depending on medium used.',
+        'Gather all relevant material for bid processes, and coordinate bidding and contract approval.',
+        'Attend sales meetings, industry trade shows, and training seminars to gather information, promote products, expand network of contacts, and increase knowledge.',
+    ] 
+
+[stocking]
+    accomplishments = [
+        'Pack and unpack items to be stocked on shelves in stockrooms, warehouses, or storage yards.',
+        'Take inventory or examine merchandise to identify items to be reordered or replenished.',
+        'Keep records on the use or damage of stock or stock-handling equipment.',
+        'Clean and maintain supplies, tools, equipment, and storage areas to ensure compliance with safety regulations.',
+        'Determine proper storage methods, identification, and stock location, based on turnover, environmental factors, and physical capabilities of facilities.',
+        'Dispose of damaged or defective items, or return them to vendors.',
+        'Set up advertising signs and displays of merchandise on shelves, counters, or tables to attract customers and promote sales.',
+        'Compare merchandise invoices to items actually received to ensure that shipments are correct.',
+    ]
+
+[customers]
+    accomplishments = [
+        'Answer customers questions about merchandise and advise customers on merchandise selection.',
+        'Stock shelves, racks, cases, bins, and tables with new or transferred merchandise.',
+        'Stamp, attach, or change price tags on merchandise, referring to price list.',
+        'Obtain merchandise from bins or shelves.',
+        'Receive and count stock items, and record data manually or on computer.',
+        'Read orders to ascertain catalog numbers, sizes, colors, and quantities of merchandise.',
+        'Itemize and total customer merchandise selection at checkout counter, using cash register, and accept cash or charge card for purchases.',
+        'Count money and make bank deposits.',
+    ]
 

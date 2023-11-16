@@ -1,0 +1,15 @@
+<div>
+    <div>
+        <div>
+            <p><b>{{ .Site.Data.exp.kenzie.business_name }}</b></p>
+            <p> {{ .Site.Data.exp.kenzie.title }} </p>
+        </div>
+        <p> {{ .Site.Data.exp.kenzie.start_date }} - {{ .Site.Data.exp.kenzie.end_date }} </p>
+    </div>
+
+    {{ range .Site.Data.acc.kenzie.accomplishments }}
+    <ul>
+        <li> {{ . | markdownify }} </li>
+    </ul>
+    {{ end }}
+</div>

@@ -1,0 +1,17 @@
+<section id="skills">
+    <h2>Skills</h2>
+
+    <div>
+        <ul>
+            {{ range .Site.Data.skills.lhs_skills }}
+                <li> {{ . | markdownify }}
+            {{ end }}
+        </ul>
+
+        <ul>
+            {{ range .Site.Data.skills.rhs_skills }}
+                <li> {{ . | markdownify }}
+            {{ end }}
+        </ul>
+    </div>
+</section>

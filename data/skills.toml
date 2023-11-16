@@ -3,9 +3,10 @@ use_skills = true
 lhs_skills = [
     '**Content Modeling**',
     '**Market Research**',
-    '**Reporting and Documentation**',
+    '**Adobe CC** (Illustrator, Photoshop, InDesign)',
 
     # '**SQL**',
+    # '**Reporting and Documentation**',
     # 'Familiarity with **headless CMS platforms** (WP, Contentful, Strapi, Sanity, etc.)',
     # '**Excel** (Sorting, Filtering, Conditional Formatting, Pivot Tables, Charting, Macros)',
     # '**Excel (and Sheets)**',
@@ -16,13 +17,13 @@ lhs_skills = [
 ]
 
 rhs_skills = [
+    '**Content Modeling** (medadata, tags, taxonomies)',
     '**Project Management**',
     '**Technical Problem-Solving**',
-    '**Requirements Analysis**',
 
+    # '**Requirements Analysis**',
     # '**Attention to Detail**',
     # '**Reporting and Documentation**',
-    # '**Content Modeling** (medadata, tags, taxonomies)',
     # '**Data Visualization and Communication**',
     # '**Data Analytics** (SQL, Python, Tableau)',
     # '**SQL**',

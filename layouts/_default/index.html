@@ -16,210 +16,22 @@
 
 
 <body>
-    <!-- This section is ALWAYS present -->
-    <section id='header'>
-        <h1>{{ .Site.Data.contact.name }}</h1>
-        <div>
-            <p>{{ .Site.Data.contact.phone }}</p>
-            <p><a href="mailto:{{.Site.Data.contact.email }}"> {{ .Site.Data.contact.email }} </a></p>
-            <p><a href="{{.Site.Data.contact.linkedin_url }}"> LinkedIn </a></p>
-        </div>
-    </section>
-    <hr>
+    {{ partial "head.html" . }}
+    {{ if .Site.Data.summary.use_summary }}     {{ partial "summary.html" . }}          {{ end }}
+    {{ if .Site.Data.contrib.use_contrib }}     {{ partial "contrib.html" . }}          {{ end }}
+    {{ if .Site.Data.skills.use_skills }}       {{ partial "skills.html" . }}           {{ end }}
+    {{ if .Site.Data.projects.use_projects }}   {{ partial "projects.html" . }}         {{ end }}
 
-    {{ if .Site.Data.summary.use_summary }}
-        <section id='summary'>
-            <h2>Summary</h2>
-            <p>{{ .Site.Data.summary.text }}</p>
-        </section>
-    {{ end }}
-
-    {{ if .Site.Data.contrib.use_contrib }}
-        <section id='contrib' >
-            <h1>Contributions and Community</h1>
-            <!-- TODO -->
-        </section>
-    {{ end }}
-
-    {{ if .Site.Data.skills.use_skills }}
-        <section id="skills">
-            <h2>Skills</h2>
-
-            <div>
-                <ul>
-                    {{ range .Site.Data.skills.lhs_skills }}
-                        <li> {{ . | markdownify }}
-                    {{ end }}
-                </ul>
-
-                <ul>
-                    {{ range .Site.Data.skills.rhs_skills }}
-                        <li> {{ . | markdownify }}
-                    {{ end }}
-                </ul>
-            </div>
-        </section>
-    {{ end }}
-
-    {{ if .Site.Data.projects.use_projects }}
-        <section id="projects">
-            <h1>Projects</h1>
-
-            {{/*
-                <!-- We really want to say for project in range projects -->
-                {{ range $k, $v := $.Site.Data.projects }}
-                <!-- Now I want to say "if k starts with 'project'" -->
-                <p>{{ printf "%T" $v }}</p>
-                {{ end }}
-            */}}
-
-            <p><b>{{ .Site.Data.projects.project_one.name }}</b></p>
-            {{ range .Site.Data.projects.project_one.data }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-            <br>
-
-            <!-- <p><b>{{ .Site.Data.projects.project_two.name }}</b></p>
-            {{ range .Site.Data.projects.project_two.data }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-            <br>
-
-            <p><b>{{ .Site.Data.projects.project_three.name }}</b></p>
-            {{ range .Site.Data.projects.project_three.data }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-            <br> -->
-
-
-
-            <!-- We need to loop an associative array -->
-            <!-- For project, in projects, project_name, project_description -->
-        </section>
-    {{ end }}
-
-    <!-- This section is ALWAYS present -->
     <section id='work_exp' >
         <h2>Experience And Accomplishments</h2>
-
-        {{ if .Site.Data.acc.use_lebook }}
-        <div>
-            <div>
-                <div>
-                    <p><b>{{ .Site.Data.exp.lebook.business_name }}</b></p>
-                    <p> {{ .Site.Data.exp.lebook.title }} </p>
-                </div>
-                <p> {{ .Site.Data.exp.lebook.start_date }} - {{ .Site.Data.exp.lebook.end_date }} </p>
-            </div>
-
-            {{ range .Site.Data.acc.lebook.accomplishments }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-        </div>
-        {{ end }}
-
-        {{ if .Site.Data.acc.use_helpertech }}
-        <div>
-            <div>
-                <div>
-                    <p><b>{{ .Site.Data.exp.helpertech.business_name }}</b></p>
-                    <p> {{ .Site.Data.exp.helpertech.title }} </p>
-                </div>
-                <p> {{ .Site.Data.exp.helpertech.start_date }} - {{ .Site.Data.exp.helpertech.end_date }} </p>
-            </div>
-
-            {{ range .Site.Data.acc.helpertech.accomplishments }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-        </div>
-        {{ end }}
-
-        {{ if .Site.Data.acc.use_thg }}
-        <div>
-            <div>
-                <div>
-                    <p><b>{{ .Site.Data.exp.thg.business_name }}</b></p>
-                    <p> {{ .Site.Data.exp.thg.title }} </p>
-                </div>
-                <p> {{ .Site.Data.exp.thg.start_date }} - {{ .Site.Data.exp.thg.end_date }} </p>
-            </div>
-
-            {{ range .Site.Data.acc.thg.accomplishments }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-        </div>
-        {{ end }}
-
-        {{ if .Site.Data.acc.use_vera }}
-        <div>
-            <div>
-                <div>
-                    <p><b>{{ .Site.Data.exp.vera.business_name }}</b></p>
-                    <p> {{ .Site.Data.exp.vera.title }} </p>
-                </div>
-                <p> {{ .Site.Data.exp.vera.start_date }} - {{ .Site.Data.exp.vera.end_date }} </p>
-            </div>
-
-            {{ range .Site.Data.acc.vera.accomplishments }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-        </div>
-        {{ end }} 
-
-        {{ if .Site.Data.acc.use_kenzie }}
-        <div>
-            <div>
-                <div>
-                    <p><b>{{ .Site.Data.exp.kenzie.business_name }}</b></p>
-                    <p> {{ .Site.Data.exp.kenzie.title }} </p>
-                </div>
-                <p> {{ .Site.Data.exp.kenzie.start_date }} - {{ .Site.Data.exp.kenzie.end_date }} </p>
-            </div>
-
-            {{ range .Site.Data.acc.kenzie.accomplishments }}
-            <ul>
-                <li> {{ . | markdownify }} </li>
-            </ul>
-            {{ end }}
-        </div>
-        {{ end }} 
-
+        {{ if .Site.Data.acc.use_lebook }}      {{ partial "acc/lebook.html" . }}       {{ end }}
+        {{ if .Site.Data.acc.use_helpertech }}  {{ partial "acc/helpertech.html" . }}   {{ end }}
+        {{ if .Site.Data.acc.use_thg }}         {{ partial "acc/thg.html" . }}          {{ end }}
+        {{ if .Site.Data.acc.use_vera }}        {{ partial "acc/vera.html" . }}         {{ end }} 
+        {{ if .Site.Data.acc.use_kenzie }}      {{ partial "acc/kenzie.html" . }}       {{ end }} 
     </section>
 
-    {{ if .Site.Data.edu.use_edu }}
-        <section id='education' >
-            <h2>Education</h2>
+    {{ partial "edu.html" . }}
 
-            <div>
-                <p>{{ .Site.Data.edu.kenzie.name }} - {{ .Site.Data.edu.kenzie.degree}}</p>
-                <p>{{ .Site.Data.edu.kenzie.start }} - {{ .Site.Data.edu.kenzie.end}}</p>
-            </div>
-
-            <div>
-                <p>{{ .Site.Data.edu.wgu.name }} - {{ .Site.Data.edu.wgu.degree}}</p>
-                <p>{{ .Site.Data.edu.wgu.start }} - {{ .Site.Data.edu.wgu.end}}</p>
-            </div>
-
-            <div>
-                <p>{{ .Site.Data.edu.bsu.name }} - {{ .Site.Data.edu.bsu.degree}}</p>
-                <p>{{ .Site.Data.edu.bsu.start }} - {{ .Site.Data.edu.bsu.end}}</p>
-            </div>
-        </section>
-    {{ end }}
 </body>
-
 </html>
